@@ -14,6 +14,6 @@ No already-authorized Vercel or Netlify account/lane was established during this
 2. **Netlify — `francopedia.netlify.app`**
    - Netlify documents a provider-issued site domain and allows assigning a domain to a site at no cost. Its published terms prohibit unlawful, infringing, harmful, or otherwise objectionable material; a static deidentified educational landing page is compatible when it preserves the existing no-PHI/no-clinical-advice boundary.
    - Requires an authorized existing Netlify account and an explicit deployment approval. Do not create an account, alter DNS, or move the runtime as part of this option.
-   - Sources: <https://docs.netlify.com/manage/domains/manage-domains/assign-a-domain-to-your-site-app/>, <https://www.netlify.com/legal/terms-of-use/>.
+   - Sources: <https://docs.netlify.com/manage/domains/domains-fundamentals/understand-domains/>, <https://www.netlify.com/legal/terms-of-use/>.
 
 A provider-issued subdomain is branded but is not a registrable custom domain. A future owned-domain option requires a separate approved purchase/DNS workflow.
