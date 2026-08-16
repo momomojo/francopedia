@@ -4,7 +4,7 @@ This document describes the currently deployed educational pilot without recordi
 
 ## Public path
 
-- **Landing:** GitHub Pages serves this repository from the `main` branch root. `index.html` routes visitors to `landing/`; `CNAME` declares `francopedia.is-a.dev`.
+- **Landing:** GitHub Pages serves this repository from the `main` branch root at <https://momomojo.github.io/francopedia/>. `index.html` routes visitors to `landing/`; no custom domain is configured.
 - **Guide:** the launch button targets `https://agents-mac-mini.tail1339c4.ts.net:10000`.
 - **Ingress:** Tailscale Funnel terminates public HTTPS and proxies only to Open WebUI at `127.0.0.1:3030`. The Hermes API remains loopback-only at `127.0.0.1:8664`; no router port is opened.
 

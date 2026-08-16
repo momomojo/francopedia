@@ -6,7 +6,7 @@
 
 ## Launch
 
-Visit the public landing page at <https://momomojo.github.io/francopedia/> and launch the guide at <https://agents-mac-mini.tail1339c4.ts.net:10000>.
+The canonical public landing page is <https://momomojo.github.io/francopedia/>. Launch the guide at <https://agents-mac-mini.tail1339c4.ts.net:10000>.
 
 ## Architecture map
 
@@ -27,7 +27,6 @@ The landing page is static and deployed from the repository's `main` branch root
 
 - `landing/` — responsive dark-theme landing page
 - `docs/` — deployment and operations documentation (sanitized)
-- `CNAME` — custom-domain declaration for GitHub Pages
 - `env.example` — intentionally non-functional environment variable placeholders
 
 ## Local preview
