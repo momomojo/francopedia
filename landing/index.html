@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="FrancoPedia — a private, deidentified educational workspace for vascular interns.">
+  <title>FrancoPedia — The Vascular Intern Guide</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <nav class="nav" aria-label="Primary navigation">
+      <a class="brand" href="/" aria-label="FrancoPedia home"><span class="brand-mark">F</span> FrancoPedia</a>
+      <a class="nav-link" href="https://github.com/momomojo/francopedia">View source <span aria-hidden="true">↗</span></a>
+    </nav>
+
+    <section class="hero" aria-labelledby="hero-heading">
+      <p class="eyebrow"><span></span> PRIVATE EDUCATIONAL PILOT</p>
+      <h1 id="hero-heading">The vascular intern<br><em>guide, refined.</em></h1>
+      <p class="lede">FrancoPedia turns trusted vascular evidence into a focused, private workspace for the questions that shape your next clinical day.</p>
+      <div class="actions">
+        <a class="launch" href="https://agents-mac-mini.tail1339c4.ts.net:10000">Launch FrancoPedia <span aria-hidden="true">→</span></a>
+        <a class="quiet-link" href="#principles">Explore the guide <span aria-hidden="true">↓</span></a>
+      </div>
+      <div class="signal" aria-hidden="true">
+        <div class="vessel vessel-a"></div><div class="vessel vessel-b"></div><div class="vessel vessel-c"></div>
+        <div class="pulse"></div><div class="pulse pulse-two"></div>
+      </div>
+    </section>
+
+    <section id="principles" class="principles" aria-labelledby="principles-heading">
+      <div class="section-intro">
+        <p class="eyebrow"><span></span> BUILT FOR THE WARD</p>
+        <h2 id="principles-heading">Signal over noise.</h2>
+        <p>Purpose-built boundaries keep the learning experience useful, grounded, and appropriately narrow.</p>
+      </div>
+      <div class="cards">
+        <article class="card"><div class="card-no">01</div><h3>SVS guidance</h3><p>Current Society for Vascular Surgery guidance is retrievable with clear provenance and limits.</p></article>
+        <article class="card"><div class="card-no">02</div><h3>Live PubMed evidence</h3><p>Explore the literature in context, with citations instead of unsupported certainty.</p></article>
+        <article class="card"><div class="card-no">03</div><h3>Private workspace</h3><p>Your chats, notes, and learning materials stay in a dedicated educational workspace.</p></article>
+        <article class="card"><div class="card-no">04</div><h3>Deidentified only</h3><p>Designed for educational use. No PHI, patient-specific decisions, or emergency care.</p></article>
+      </div>
+    </section>
+
+    <section class="callout" aria-labelledby="callout-heading">
+      <p class="eyebrow"><span></span> READY WHEN YOU ARE</p>
+      <h2 id="callout-heading">A calmer place to<br>ask better questions.</h2>
+      <a class="launch launch-small" href="https://agents-mac-mini.tail1339c4.ts.net:10000">Open the guide <span aria-hidden="true">→</span></a>
+    </section>
+  </main>
+  <footer>
+    <p><strong>Pilot release boundary:</strong> educational and deidentified use only. No PHI. Not for emergencies, patient-specific decisions, or clinical deployment.</p>
+    <p>© <span id="year"></span> FrancoPedia · <a href="https://github.com/momomojo/francopedia">GitHub</a></p>
+  </footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

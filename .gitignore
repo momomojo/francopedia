@@ -1,0 +1,20 @@
+# Secrets and local credentials
+.env
+.env.*
+!.env.example
+secrets/
+keys/
+*.key
+*.pem
+*.p12
+*.pfx
+
+# Local data and databases
+*.db
+*.sqlite
+*.sqlite3
+
+# OS/editor files
+.DS_Store
+.vscode/
+.idea/
